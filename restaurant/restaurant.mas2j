@@ -1,0 +1,29 @@
+/*
+    restaurant
+    ---------------------------
+
+    Jason Project File
+
+    This file defines the initial state of the MAS
+
+    Jason 2.5.1
+    május 17, 2022 - 11:23:52
+*/
+
+MAS restaurant {
+
+    infrastructure: Local
+
+    environment: RestaurantEnvironment(gui)
+
+    agents: 
+        robot1;
+		robot2;
+		robot3;
+		auctioneer;
+		table1;
+		table2;
+		table3;
+		table4;
+		table5;
+}
